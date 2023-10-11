@@ -43,7 +43,7 @@ void setup() {
 
 void loop() {
   //delay so that the sensor is not overloaded or not too stressed
-  delay(1000*60*60);
+  delay(1000 * 60 * 60);
 
   //measures light
   int light = getLight();
