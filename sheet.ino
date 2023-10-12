@@ -13,8 +13,8 @@ LiquidCrystal_I2C lcd(0x3F, 20, 4);
 const int DHTPin = 2;
 
 //SSID dan Password wifi mu gan.const
-const char* ssid = "UwU";           //--> Nama Wifi / SSID.
-const char* password = "00000000";  //-->  Password wifi .
+const char* ssid = "";           //--> Nama Wifi / SSID.
+const char* password = "";  //-->  Password wifi .
 
 
 const char* host = "script.google.com";
@@ -29,7 +29,7 @@ WiFiClientSecure client;  //--> Create a WiFiClientSecure object.
 long now = millis();
 long lastMeasure = 0;
 
-String GAS_ID = "AKfycbykrW30e6v49Mm4zePj3P5cYGC_qQx2Lvnbj3NjNWVAyQM0Oh27FSHKqrWHRJ839X0";  //--> spreadsheet script ID
+String GAS_ID = "";  //--> spreadsheet script ID
 
 //============================================ void setup
 void setup() {
